@@ -1,35 +1,31 @@
 @prefix admin: <http://webns.net/mvcb/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://github.com/damchevski/myfoaf-profile/blob/main/foaf.ttl> a foaf:PersonalProfileDocument ;
+<https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/foaf.ttl> a foaf:PersonalProfileDocument ;
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
     admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
-    foaf:maker <https://github.com/damchevski/myfoaf-profile/blob/main/foaf.ttl#me> ;
-    foaf:primaryTopic <https://github.com/damchevski/myfoaf-profile/blob/main/foaf.ttl#me> .
+    foaf:maker <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/foaf.ttl#me> .
 
-<https://github.com/damchevski/myfoaf-profile/blob/main/foaf.ttl#me> a foaf:Person ;
-    foaf:depiction <https://github.com/damchevski/myfoaf-profile/blob/main/mying> ;
+<https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/foaf.ttl#me> a foaf:Person ;
+    foaf:depiction <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/testpic> ;
     foaf:family_name "Damchevski" ;
     foaf:givenname "Angjelche" ;
-    foaf:homepage <https://github.com/damchevski/myfoaf-profile/blob/main/www.damch.com> ;
+    foaf:homepage <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/www.anedam.com> ;
     foaf:knows [ a foaf:Person ;
-            rdfs:seeAlso <https://www.facebook.com/david.astardziev.75> ;
-            foaf:mbox_sha1sum "14fb0d21071de686b640875cc48c9dd6035f42fe" ;
-            foaf:name "David" ],
-        [ a foaf:Person ;
-            rdfs:seeAlso <https://www.facebook.com/kiksata0> ;
-            foaf:mbox_sha1sum "fbfd598bd8ed8695d19037f27bb7f9b9b4dda168" ;
-            foaf:name "Kristijan" ],
-        [ a foaf:Person ;
-            rdfs:seeAlso <https://www.facebook.com/todor.atanasoov> ;
             foaf:mbox_sha1sum "ae29e390a1ceb7f4fd1bed7f1ad2f6ba4ec919be" ;
-            foaf:name "Todor" ] ;
-    foaf:mbox_sha1sum "6e821fc86d25fffb8f712d9d1bffad1134672b1d" ;
+            foaf:name "Todor" ],
+        [ a foaf:Person ;
+            foaf:mbox_sha1sum "fbfd598bd8ed8695d19037f27bb7f9b9b4dda168" ;
+            foaf:name "Kiksa" ],
+        [ a foaf:Person ;
+            foaf:mbox_sha1sum "14fb0d21071de686b640875cc48c9dd6035f42fe" ;
+            foaf:name "David" ] ;
+    foaf:mbox_sha1sum "90ed5bb28df6cf5b513f28f0b1d85ffb4f77da93" ;
     foaf:name "Angjelche Damchevski" ;
     foaf:nick "Ane" ;
-    foaf:phone <https://github.com/damchevski/myfoaf-profile/blob/main/tel:0708881111> ;
-    foaf:schoolHomepage <https://github.com/damchevski/myfoaf-profile/blob/main/www.finki.ukim.mk> ;
+    foaf:phone <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/tel:070286828> ;
+    foaf:schoolHomepage <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/www.finki.ukim.mk> ;
     foaf:title "Mr" ;
-    foaf:workInfoHomepage <https://github.com/damchevski/myfoaf-profile/blob/main/Programming> ;
-    foaf:workplaceHomepage <https://github.com/damchevski/myfoaf-profile/blob/main/www.damch.com> .
+    foaf:workInfoHomepage <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/Programmer> ;
+    foaf:workplaceHomepage <https://raw.githubusercontent.com/damchevski/myfoaf-profile/main/www.anedam.com> .
